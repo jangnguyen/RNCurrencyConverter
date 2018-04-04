@@ -38,7 +38,6 @@ Upgrading to a new version of React Native requires updating the `react-native`,
 
 ## Available Scripts
 
-If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
 Nói chung là nếu cài Yarn thì lấy cái kia (Yarn) mà xài từ đó về sau luôn đi. Thiên hạ đồn nó nhanh và bảo mật hơn á.
 
 ### `npm start`
