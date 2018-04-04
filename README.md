@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
-## Table of Contents
+## Mục lục
 
 * [Updating to New Releases](#updating-to-new-releases)
 * [Available Scripts](#available-scripts)
@@ -28,6 +28,7 @@ Below you'll find information about performing common tasks. The most recent ver
   * [QR Code does not scan](#qr-code-does-not-scan)
 
 ## Updating to New Releases
+## Cập nhật phiên bản mới
 
 You should only need to update the global installation of `create-react-native-app` very rarely, ideally never.
 
@@ -38,14 +39,16 @@ Upgrading to a new version of React Native requires updating the `react-native`,
 ## Available Scripts
 
 If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
+Nói chung là nếu cài Yarn thì lấy cái kia (Yarn) mà xài từ đó về sau luôn đi. Thiên hạ đồn nó nhanh và bảo mật hơn á.
 
 ### `npm start`
 
 Runs your app in development mode.
+Chạy ở development mode.
 
-Open it in the [Expo app](https://expo.io) on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
+Mở Expo app trên điện thoại để xem build, mà méo thấy đâu, chắc phải bỏ tiền ra mua. Nó có cái hay là khi nào mình save lại thì nó tự động reload trên app luôn. Còn lỗi thì nó văng ra cái console trong Terminal á.
 
-Sometimes you may need to reset or clear the React Native packager's cache. To do so, you can pass the `--reset-cache` flag to the start script:
+Sometimes cần phải reset hay clear nhớ đệm của mấy cái gói RN này, bữa giờ chưa chạy thử. Chỉ cần mở cờ `--reset-cache` thoai.
 
 ```
 npm start --reset-cache
