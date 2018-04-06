@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07d3877-e8c5-4d58-9289-2bae67db0610" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Button/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Button/images/icon@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Button/images/icon@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Container/Container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Container/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Container/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Logo/Logo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Logo/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Logo/images/background@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Logo/images/background@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Logo/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Logo/images/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Logo/images/logo@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Logo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Logo/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/TextInput/InputWithButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/TextInput/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/TextInput/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Button/ClearButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Button/ButtonWithInput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Button/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Button/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Button/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/CurrencyList.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Container/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/screens/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="513">
+              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#419#420#0" expanded="true" />
@@ -82,6 +56,15 @@
                 <element signature="e#737#738#0" expanded="true" />
                 <element signature="e#761#762#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -125,7 +108,6 @@
         <option value="$PROJECT_DIR$/app/components/Button/ButtonWithInput.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.eslintrc.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/components/Logo/index.js" />
         <option value="$PROJECT_DIR$/app/components/Logo/styles.js" />
         <option value="$PROJECT_DIR$/app/components/Logo/Logo.js" />
@@ -140,6 +122,7 @@
         <option value="$PROJECT_DIR$/app/components/Button/ClearButton.js" />
         <option value="$PROJECT_DIR$/app/components/Button/styles.js" />
         <option value="$PROJECT_DIR$/app/screens/Home.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -320,12 +303,12 @@
       <workItem from="1522825107755" duration="9436000" />
       <workItem from="1522912452594" duration="68000" />
       <workItem from="1522914843555" duration="8408000" />
-      <workItem from="1522949078628" duration="6072000" />
+      <workItem from="1522949078628" duration="6312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23984000" />
+    <option name="totallyTimeSpent" value="24224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,11 +328,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159746" side_tool="true" weight="0.19537038" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49898028" visible="true" weight="0.21944444" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49898028" weight="0.21944444" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32962963" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49840257" weight="0.19537038" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49840257" visible="true" weight="0.37314814" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.5012255" side_tool="true" weight="0.25239617" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,13 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -572,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/screens/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="513">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#419#420#0" expanded="true" />
@@ -585,6 +561,13 @@
             <element signature="e#737#738#0" expanded="true" />
             <element signature="e#761#762#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
