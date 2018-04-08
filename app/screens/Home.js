@@ -1,12 +1,13 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import {StatusBar, KeyboardAvoidingView} from 'react-native';
 
-import {Container} from '../components/Container';
+import Container from '../components/Container/Container';
 import {Logo} from '../components/Logo';
-import {InputWithButton} from '../components/TextInput';
+import InputWithButton from '../components/TextInput/InputWithButton';
 import ClearButton from "../components/Button/ClearButton";
 import LastConverted from "../components/Text/LastConverted";
-import {Header} from "../components/Header";
+import Header from '../components/Header/Header';
 
 const TEMP_BASE_CURRENCY = 'USD';
 const TEMP_QUOTE_CURRENCY = 'GBP';
@@ -18,16 +19,20 @@ const TEMP_CONVERSION_RATE = 0.79739;
 
 class Home extends React.Component {
 
+    static propTypes = {
+        navigation: PropTypes.object
+    }
+
     handleChangeText = () => {
         console.log('Change Text');
     };
 
     handlePressBaseCurrency = () => {
-        console.log('Press base currency');
+        this.props.navigation.navigate('CurrencyList', {title: 'Base Currency'})
     };
 
     handlePressQuoteCurrency = () => {
-        console.log('Press quote currency');
+        this.props.navigation.navigate('CurrencyList', {title: 'Quote Currency'})
     }
 
     handleSwapCurrency = () => {
@@ -35,20 +40,22 @@ class Home extends React.Component {
     }
 
     handleOptionPress = () => {
-        console.log('Option press')
+        this.props.navigation.navigate('Options')
     }
 
     render() {
+
         return (
             <Container>
-
                 <StatusBar backgroundColor="blue" barStyle={"light-content"}/>
 
                 <Header onPress={this.handleOptionPress}/>
 
                 {/*Logo is here*/}
                 <KeyboardAvoidingView behavior="padding">
+
                     <Logo/>
+
                     {/*Input button for Base*/}
                     <InputWithButton
                         buttonText={TEMP_BASE_CURRENCY}
@@ -57,12 +64,14 @@ class Home extends React.Component {
                         keyboardType="numeric"
                         onChangeText={this.handleChangeText}
                     />
+
                     {/*Input button for Quote*/}
                     <InputWithButton
                         editable={false}
                         buttonText={TEMP_QUOTE_CURRENCY}
                         onPress={this.handlePressQuoteCurrency}
                         value={TEMP_QUOTE_PRICE}/>
+
                     {/*Convert result found here*/}
                     <LastConverted
                         date={TEMP_LAST_CONVERTED}
@@ -70,6 +79,7 @@ class Home extends React.Component {
                         quote={TEMP_QUOTE_CURRENCY}
                         conversionRate={TEMP_CONVERSION_RATE}>
                     </LastConverted>
+
                     {/*Clear button goes here*/}
                     <ClearButton onPress={this.handleSwapCurrency} text="Reverse Currencies"/>
                 </KeyboardAvoidingView>
